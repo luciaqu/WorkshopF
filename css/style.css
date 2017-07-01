@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+#contenedor{
+	width: 100%;
+	text-align: center;
+	padding: 0;
+
+}
+
+/*ppio HEADER*/
+header{
+	text-align: center;
+	height:100px;
+	text-align: left;
+	margin-bottom: 3em;
+}
+#ppal-logo{
+	text-align: center;
+	display: inline-block;
+	width: 30%;
+	padding-top: 2em;
+}
+
+#nav-social{
+	padding-top: 2em;
+	text-align: center;
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	/*background-image:url("../img/background.jpg");*/
+
+}
+#nav-social a{
+	margin-right: 3em;
+
+}
+
+#div-log{/*ppio log-in*/
+	padding-top: 2em;
+	text-align: right;
+	display: inline-block;
+	width: 20%;
+	margin-right: 0;
+	margin-top: 0;
+}
+#login{
+	text-align: right;
+	display: inline-block;
+
+}
+#login #msj{
+	display: none;
+}/*fin log-in*/
+
+/*fin HEADER*/
+/*ppio NAV-PPAL*/
+#nav-ppal{
+	text-align: center;
+	height:2em;
+	width: 100%;
+	margin-bottom: 4em;
+	
+
+}
+#nav-ppal a{
+	text-decoration: none;
+	color:grey;
+	display: inline-block;
+	font-family: 'Zilla Slab', serif;
+	font-style: bold;
+	font-size:20px;
+	
+}
+#nav-ppal ul{
+	list-style: none;
+	font-weight: bold;
+}
+#nav-ppal li{
+	display: inline-block;
+	margin-top: 1em;
+	margin-right: 2em;
+	margin-bottom: 1em;
+
+}
+/*fin NAV-PPAL*/
+/*ppio CAROUSEL*/
+#carousel h2{
+	display: block;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 30px;
+	font-family: 'Zilla Slab', serif;
+}
+/*fin CAROUSEL*/
+/*ppio ABOUT*/
+#about{
+	width: 100%;
+	margin-bottom: 6em;
+
+}
+#about h2{
+	display: block;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 30px;
+	font-family: 'Zilla Slab', serif;
+}
+#about figure{
+	display: inline-block;
+	width: 30%;
+	margin-right: 1em;
+}
+#about figure img{
+	width: 100%;
+	border-style: dashed;
+}
+.about-txt{
+	margin-top:0;
+	width: 50%;
+	display: inline-block;
+
+}
+.about-txt p{
+	margin-top: 0em;
+	font-family: 'Zilla Slab', serif;
+	font-style: light;
+}
+/*fin ABOUT*/
+/*ppio PRODUCTOS*/
+#productos{
+	width: 100%;
+	margin-bottom: 6em;
+
+}
+#productos h2{
+	display: block;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 30px;
+	font-family: 'Zilla Slab', serif;
+}
+/*fin PRODUCTOS*/
